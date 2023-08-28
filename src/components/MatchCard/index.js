@@ -8,7 +8,7 @@ const MatchCard = props => {
   const statusClassName = matchStatus === 'Won' ? 'won' : 'lost'
 
   return (
-    <div className="match-card">
+    <li className="match-card">
       <img
         src={competingTeamLogo}
         alt={`competing team ${competingTeam}`}
