@@ -11,7 +11,7 @@ import './index.css'
 
 class TeamMatches extends Component {
   state = {
-    matchesData: [],
+    matchesData: {},
     isLoading: true,
   }
 
